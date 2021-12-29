@@ -1,3 +1,6 @@
+### Takes O(n)
+
+
 s="fun&|| find"
 c=0
 m=0
@@ -9,3 +12,9 @@ for i in range(len(s)):
     else:
         c=0
 print(m)
+
+
+
+
+
+
