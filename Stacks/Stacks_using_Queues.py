@@ -16,7 +16,7 @@ class stack:
             self.q2.enqueue(self.q1.dequeue())
             curr=curr.next
         holding_pointer=self.q1.dequeue()
-        self.q1, self.q2=self.q2, self.q1
+        self.q1, self.q2=self.q2, self.q1  // changing reference q1-->q2 , q2-->q1
         self.length -=1
         return holding_pointer
         
