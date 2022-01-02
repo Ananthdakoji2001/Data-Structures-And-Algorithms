@@ -6,6 +6,11 @@ def remove_duplicates(l):
         if prev.val==curr.val:
             prev.next=curr.next
             curr=curr.next
-        else:
+        else:              //if the values are not same then move forward
             prev=curr
             curr=curr.next
+
+            
+            
+            
+            
